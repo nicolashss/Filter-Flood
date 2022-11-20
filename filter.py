@@ -100,4 +100,5 @@ while c < len(list):
 newfile.close()
 with open(file2) as e:
     count = e.read().splitlines()
+    
 print ('[!] Finished Filter saved to %s with %i working servers.' % ( file2,len(count) ))
